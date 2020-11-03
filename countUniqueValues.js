@@ -1,3 +1,4 @@
+// Multiple pointer pattern
 // write a function that accept asorted array and counts the unique value in array.
 // for ex : uniqueValue([1,1,1,2])  gives 2
 

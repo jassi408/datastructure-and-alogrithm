@@ -1,3 +1,5 @@
+// frequency counter pattern
+
 // Frequency Counter -- given two strings write a function to determine if the second string is anagram of first. Such as cinema and iceman
 
 
