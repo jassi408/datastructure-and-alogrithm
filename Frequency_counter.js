@@ -49,3 +49,33 @@ function same(first,second){
     
  }
  same('ab','ab');
+
+//  -------------------------------------------------------
+
+//  second method
+
+function same(first,second){
+    if(first.length !== second.length){
+        return false;
+    }
+   let obj = {};
+   for(let i =0 ; i<first.length ; i++){
+       let letter = first[i];
+       obj[letter] ? obj[letter]++ : obj[letter] = 1;
+   } 
+   console.log(obj);
+   for(let i =0; i<second.length ; i++){
+       let letter = second[i];
+       if(!obj[letter]){
+           return false;
+       }
+       else{
+           obj[letter]--;
+       }
+
+       return true;
+   }
+console.log(obj);
+}
+
+same('hate','athe');
