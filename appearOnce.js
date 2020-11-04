@@ -7,8 +7,6 @@ function appearOnce(arr){
     let result = [];
     if(arr.length <= 1){
         return null;
-    }else if((arr.length === 2) && (arr[0] !== arr[1])){
-        return arr[0],arr[1];
     }
     let obj = {};
     for(let i = 0; i < arr.length ; i++){
